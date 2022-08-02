@@ -10,4 +10,7 @@ public class CodetopApplication {
 		SpringApplication.run(CodetopApplication.class, args);
 	}
 
+
+	public void test(){}
+
 }
