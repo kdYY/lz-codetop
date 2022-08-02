@@ -1,6 +1,6 @@
 package lz.codetop.demo;
 
-public class longestIncreasingSubsequence {
+public class LongestIncreasingSubsequence {
     /**
      * 给你一个整数数组 nums ，找到其中最长严格递增子序列的长度。
      *

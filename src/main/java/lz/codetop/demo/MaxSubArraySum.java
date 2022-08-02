@@ -26,7 +26,7 @@ public class MaxSubArraySum {
      * 链接：https://leetcode.cn/problems/maximum-subarray
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      *
-     * 
+     *
      *
      * 做完可以看{@link LongestIncreasingSubsequence}这个题目
      */
