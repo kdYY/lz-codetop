@@ -1,4 +1,4 @@
-package lz.codetop.demo;
+package lz.codetop.demo.dp;
 
 public class LongestIncreasingSubsequence {
     /**

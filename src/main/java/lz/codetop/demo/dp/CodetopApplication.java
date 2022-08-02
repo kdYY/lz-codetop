@@ -1,4 +1,4 @@
-package lz.codetop.demo;
+package lz.codetop.demo.dp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
