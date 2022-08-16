@@ -27,6 +27,22 @@ public class StockTrading {
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      * @param prices
      */
+
+    public static int maxProfit1(int[] prices) {
+        int max = 0;
+        for (int i = prices.length -1; i > 0; i --) {
+            for (int i1 = i - 1; i1 >= 0; i1--) {
+                if(i == i1) {
+                    continue;
+                }
+                if(prices[i] - prices[i1] > max) {
+                    max = prices[i] - prices[i1];
+                }
+            }
+        }
+        return max;
+    }
+
     public static int maxProfit(int[] prices) {
         int min = Integer.MAX_VALUE;
         int max = 0;
@@ -43,7 +59,9 @@ public class StockTrading {
 
 
     public static void main(String[] args) {
-        int[] a = new int[]{7,6,4,3,1};
-        System.out.println(maxProfit(a));
+        int[] a = new int[]{7,1,5,3,6,4};
+        System.out.println(maxProfit1(a));
+
+
     }
 }
